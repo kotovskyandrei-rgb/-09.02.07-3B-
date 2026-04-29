@@ -1,0 +1,36 @@
+{
+  "payment_methods": [
+    {
+      "id": "card",
+      "name": "Банковская карта",
+      "icon": "💳",
+      "commission": 0,
+      "description": "Visa, MasterCard, МИР",
+      "processing_time": "мгновенно"
+    },
+    {
+      "id": "sbp",
+      "name": "СБП",
+      "icon": "📱",
+      "commission": 0,
+      "description": "Система быстрых платежей",
+      "processing_time": "мгновенно"
+    },
+    {
+      "id": "qiwi",
+      "name": "QIWI Кошелёк",
+      "icon": "👛",
+      "commission": 1.5,
+      "description": "Оплата через QIWI кошелёк",
+      "processing_time": "до 5 минут"
+    },
+    {
+      "id": "yoomoney",
+      "name": "ЮMoney",
+      "icon": "🟡",
+      "commission": 0.5,
+      "description": "Оплата через ЮMoney",
+      "processing_time": "мгновенно"
+    }
+  ]
+}
